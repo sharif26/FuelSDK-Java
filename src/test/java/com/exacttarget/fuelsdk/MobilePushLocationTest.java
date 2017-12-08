@@ -5,13 +5,15 @@
  */
 package com.exacttarget.fuelsdk;
 
+import com.exacttarget.fuelsdk.mobilepush.LocationAttribute;
+import com.exacttarget.fuelsdk.mobilepush.MobilePushLocation;
+import com.exacttarget.fuelsdk.mobilepush.LocationCenter;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import com.exacttarget.fuelsdk.MobilePush.*;
 import org.junit.FixMethodOrder;
 import org.junit.runners.MethodSorters;
 
